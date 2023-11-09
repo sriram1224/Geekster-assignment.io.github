@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+          <fieldset>
+            <legend>Personal Details</legend>
+            <label for="first">Firstname</label>
+
+                <input type="text" name="first" id="name" size="15"><br><br>
+           
+                <label for="Middle">Middlename:</label>
+           
+                <input type="text" name="middle" id="middle" size="15"><br><br>
+           
+                <label for="last">Lastname:</label>
+           
+                <input type="last" name="last" id="last" size="15" >
+                <br><br>
+                    <label for="course">Course :</label>
+                    <select>  
+                        <option value="Course">Course</option>  
+                        <option value="BCA">BCA</option>  
+                        <option value="BBA">BBA</option>  
+                        <option value="B.Tech">B.Tech</option>  
+                        <option value="MBA">MBA</option>  
+                        <option value="MCA">MCA</option>  
+                        <option value="M.Tech">M.Tech</option>  
+                        </select>
+
+                <br><br>
+
+                 <label for="gender">
+                    Gender :
+                </label>
+                <br>
+                <input type="radio" name="male" id="male"> Male
+                <br>
+                <input type="radio" name="female" id="female"> Female
+                <br>
+                <input type="radio" name="other" id="other"> Other
+                <br> 
+                <br>
+                <label for="dob">DOB</label>
+                <input type="datetime-local" id="dob">
+                <br>
+                
+                <label for="Phone">Phone :</label>
+                <input type="text" name="county-code" value="+91" size="2" disabled>
+
+                <input type="tel" name="phone" id="phone" maxlength="10" size="10"><br><br>
+                <label for="address">Address:</label>
+                <br>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+
+                    <label for="email">Email:</label>
+                
+                        <input type="email" name="email">
+                        <br><br>
+                        <br>
+                        <label for="pass">Password:</label>
+                        <input type="password" name="pass" id="pass">
+                        <br><br>
+                        <br>
+                        <label for="Re-type">Re-type password:</label>
+                        <input type="password" name="retypepass" id="retypepass"> 
+                        <br><br> 
+                        <input type="checkbox">Agree to terms and conditions
+                        <br><br>
+                        <label for="file">Choose File</label>
+                        <input type="file">
+                        <br><br>
+                        <label for="color">Choose Color</label>
+                        <input type="color">
+                        <br><br>
+                        <button>Reset</button>
+                        <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
