@@ -6,6 +6,8 @@ p{
     color: rgba(0,0,0,0.6); 
 }
 .content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     
     flex-direction: column;
    
