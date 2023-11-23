@@ -1,0 +1,152 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+ :root{
+    --black: #0f0f0f;
+    --white : #ffffff;
+    --gray:#3d3d3d;
+ }
+ 
+ 
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+
+ }
+ header{
+    height:  3rem;
+    display: flex;
+    padding: 10px 3rem;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logo{
+    height: 2.5rem;
+ }
+ .left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.search form {
+    border: 1px solid #ddd;
+    height: 35px;
+
+border-radius: 0;
+    margin: 0;
+    padding: 0;
+   
+    display: flex;
+}
+.search  button{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+.search input {
+    width: 500px;
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 10px;
+    
+}
+main{
+    display: flex;
+    overflow: hidden;
+    height: calc(100vh - 70px);
+}
+.sidebar{
+    height: 100vh;
+    width: 250px;
+    overflow-y: scroll;
+}
+.sub{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sub1{
+    color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 20px;
+}
+.sub1:hover{
+
+ background-color: rgb(233, 233, 233);
+}
+.videos-section{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 15px 15px;
+    border-top: 1px solid #ddd;
+
+}
+.videos-section > h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(3,3,3);
+    font-family: 'Roboto', sans-serif;
+}
+.video-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.video_thumbnail {
+    width: 100%;
+    height: 170px;
+}
+.thumbnail{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.video {
+    width: 300px;
+    margin-bottom: 35px;
+
+}
+.video-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 15px;
+}
+
+.vid-img{
+    height: 20px;
+    border-radius: 50%;
+}
+h1{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
