@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family :"Barlow Semi Condensed",sans-serif;
+}
+
+body{
+  background-color: #ecf2f8;
+}
+main{
+  /* border: 1px solid black; */
+  margin-top: 60px;
+  margin-bottom: auto;
+  margin-left: 205px;
+  margin-right: 205px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.innercontainer1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+  
+  gap: 20px;
+  
+  width: 80%;
+}
+.cont1{
+  
+  background-color: #7541c8;
+  background-image: url("https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+  border-radius: 10px;
+  
+  width: 540px;
+  padding: 32px;
+  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+}
+
+.logo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.head{
+  display: flex;
+  
+  gap: 15px;
+}
+.details{
+  font-size: 11px;
+  color: #a6a7ec;
+}
+h2{
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+
+}
+
+.first{
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+  margin: 20px 0px 0px;
+  font-weight: 500;
+}
+
+.second{
+  font-size: 13.2px;
+  color : rgba(255, 255, 255, 0.679);
+  line-height: 19.5px;
+  margin: 13px 0px 0px ;
+  font-weight: 500;
+
+}
+
+
+
+
+.cont2{
+  background-color: #48556a;
+  padding: 32px;
+  width: 270px;
+  border-radius: 10px;
+  
+
+  
+}
+
+
+
+.cont3{
+  background-color: white;
+  padding: 32px;
+  width: 270px;
+  border-radius: 10px;
+  
+
+  
+  
+}
+
+.cont3 .head .details h2{
+  color: black;
+}
+
+.cont3 .para p{ 
+  color: black;
+}
+
+
+.cont4{
+  border-radius: 10px;
+  background-color: #19212e;
+  width: 540px;
+  padding: 32px;
+  
+
+}
+
+.innercontainer2{
+  width: 272px;
+  padding: 32px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.innercontainer2 .head .details h2{
+  color: black;
+}
+
+.innercontainer2 .para p{ 
+  color: black;
+}
