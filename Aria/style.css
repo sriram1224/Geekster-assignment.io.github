@@ -90,7 +90,7 @@ nav{
   align-items: center;
   color: var(--white-color);
   z-index: 100;
-  backdrop-filter: blur(10px) grayscale(25%);
+   background-color: var(--dark-green-color);
 
 }
 nav a{
