@@ -90,7 +90,7 @@ nav{
   align-items: center;
   color: var(--white-color);
   z-index: 100;
-   background-color: var(--dark-green-color);
+  background-color: var(--dark-green-color);
 
 }
 nav a{
