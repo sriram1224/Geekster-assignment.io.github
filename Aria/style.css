@@ -245,6 +245,26 @@ font-size: 2rem;
     
     line-height: 1.5rem;
 }
+.intro .skills-list-container .skill-item .icon-container{
+    width: 96px;;
+    height: 96px;
+    background-image: url(./assets/images/hexagon-green.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    color: var(--white-color);
+
+}
+.intro .skills-list-container .skill-item .icon-container:hover{
+    cursor: pointer;
+    background-image: url(./assets/images/hexagon-white.svg);
+    color: var(--light-green-color);
+}
+
 .intro .skills-list-container .skill-item h4{
     font-size: 1.5rem;
     color: var(--dark-gray-color);
@@ -772,6 +792,11 @@ font-size: 2rem;
         color: white;
     }
     
+    #social-media-contacts> .nav-icons .icon-container:hover{
+        cursor: pointer;
+        background-image: url(./assets/images/hexagon-white.svg);
+        color: #14bf96;
+    }
     #contact-form form{
         display: flex;
         flex-direction: column;
